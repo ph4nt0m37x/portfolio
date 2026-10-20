@@ -20,7 +20,7 @@ const projects: Project[] = [
         "A distributed information system built on microservices, CQRS, and event-driven communication, coordinating catalog, inventory, membership, and borrowing operations.",
     stack: ["Kotlin", "Spring Boot", "Axon", "Kafka", "Docker"],
     status: "completed",
-    image: "/projects/library-system.png",
+    image: `${import.meta.env.BASE_URL}projects/library-system.png`,
     href: "https://github.com/ph4nt0m37x/library-system",
   },
   {
@@ -30,7 +30,7 @@ const projects: Project[] = [
         "An alternative navigation platform exploring graph-based route optimization to prioritize smoother driving experiences over conventional shortest-path routing.",
     stack: ["Flutter", "Python", "OSM", "OSRM", "NetworkX"],
     status: "completed",
-    image: "/projects/better-roads.png",
+    image: `${import.meta.env.BASE_URL}projects/betterroads.png`,
     href: "https://github.com/ph4nt0m37x/betterroads",
   },
   {
@@ -40,7 +40,7 @@ const projects: Project[] = [
         "A browser-based localization tool featuring structured language-file editing, inline text styling, and real-time translation previews.",
     stack: ["React", "TypeScript", "Vite"],
     status: "completed",
-    image: "/projects/minecraft-lang-builder.png",
+    image:  `${import.meta.env.BASE_URL}projects/minecraft-lang-builder.png`,
     href: "https://ph4nt0m37x.github.io/minecraft-lang-editor/",
   },
   {
@@ -50,7 +50,7 @@ const projects: Project[] = [
         "Led a team of five responsible for maintaining and updating the Job Fair 2026 website. Coordinated development tasks, organized team contributions, and oversaw ongoing platform improvements to keep the website functional, accurate, and up to date throughout the event cycle.",
     stack: ["Angular", "Spring Boot", "MySQL"],
     status: "complete",
-    image: "/projects/jobfair.png",
+    image: `${import.meta.env.BASE_URL}projects/jobfair.png`,
     href: "https://vjobfair.org.mk/",
   },
   {
@@ -60,7 +60,7 @@ const projects: Project[] = [
         "A community-focused event discovery platform built with ASP.NET Core and Onion Architecture, later expanded into a cross-platform Flutter application with Firebase authentication, cloud data management, and weather forecasts via Open-Meteo.",
     stack: ["Flutter", "Dart", "ASP.NET Core", "Firebase", "Azure", "Open-Meteo"],
     status: "completed",
-    image: "/projects/blok344.jpg",
+    image: `${import.meta.env.BASE_URL}projects/blok344.png`,
     href: "https://github.com/ph4nt0m37x/blok34_mobile",
   },
   {
@@ -70,7 +70,7 @@ const projects: Project[] = [
         "A 3D, story-driven survival game developed in Godot using GDScript, combining narrative design, environmental storytelling, and survival gameplay. Set in a fictional winter apocalypse inspired by 1970s Yugoslavia, the game follows a lone survivor navigating an isolated, frozen world.",
     stack: ["Godot", "GDScript", "3D Game Development", "Blender"],
     status: "paused",
-    image: "/projects/plavi-voz.png",
+    image: `${import.meta.env.BASE_URL}projects/plavi-voz.png`,
     href: "https://github.com/ph4nt0m37x/Plavi-Voz",
   },
   {
@@ -80,7 +80,7 @@ const projects: Project[] = [
         "A full-stack web application built with Django and Bootstrap, implementing a structured platform for academic networking, mentorship, and opportunity discovery. Combines server-side application logic, data management, and a responsive user interface to support collaboration between students, mentors, and professionals.",
     stack: ["Python", "Django", "Bootstrap"],
     status: "completed",
-    image: "/projects/most.png",
+    image: `${import.meta.env.BASE_URL}projects/most.png`,
     href: "https://github.com/ph4nt0m37x/most",
   },
   {
@@ -90,7 +90,7 @@ const projects: Project[] = [
         "A containerized financial data analysis platform built with Flask, featuring automated stock market data scraping with Beautiful Soup, data processing with pandas, and SQLite-based storage. Includes interactive Plotly visualizations and technical analysis tools, with a responsive Bootstrap interface and Docker-based deployment.",
     stack: ["Python", "Flask", "pandas", "Beautiful Soup", "SQLite", "Plotly", "Bootstrap", "Docker"],
     status: "completed",
-    image: "/projects/mse.png",
+    image: `${import.meta.env.BASE_URL}projects/mse.png`,
     href: "https://github.com/ph4nt0m37x/MSE-Web-App",
   },
   {
@@ -100,7 +100,7 @@ const projects: Project[] = [
         "A full-stack notes application built with Flask and React, designed to demonstrate an end-to-end DevOps workflow. Containerized with Docker and deployed on Kubernetes, with GitHub Actions automating build and deployment pipelines and Argo CD enabling GitOps-based continuous delivery.",
     stack: ["Python", "Flask", "React", "Docker", "Kubernetes", "GitHub Actions", "Argo CD"],
     status: "completed",
-    image: "/projects/notes-app.png",
+    image: `${import.meta.env.BASE_URL}projects/notes.png`,
     href: "https://github.com/ph4nt0m37x/notes-app",
   },
   // {
